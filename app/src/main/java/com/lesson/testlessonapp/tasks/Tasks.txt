@@ -1,0 +1,3 @@
+T1 - Tam eded verilib. Bu ededin reqemleri cemini tapan proqram yazin
+T2 -Verilmis musbet tam ededin  faktorialini  hesablayan proqram tertib edin.
+T3 - Verilmiş zaman intervalini saat,deqiqe, saniyə şəklində qebul eden taymer proqrami tertib edin

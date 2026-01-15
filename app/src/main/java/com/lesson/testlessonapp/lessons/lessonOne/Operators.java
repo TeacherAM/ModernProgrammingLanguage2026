@@ -2,7 +2,14 @@ package com.lesson.testlessonapp.lessons.lessonOne;
 
 public class Operators {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+
+        /*
+        •	Aritmetik operatorlar: +, -, *, /, %
+        •	Müqayisə operatorları: ==,!=, <, >, <=, >=
+        •	Məntiqi operatorlar: &&, ||,!
+
+        */
 
         // Operators
         int price = 50;
@@ -20,7 +27,7 @@ public class Operators {
         int remainder = price % 3;
 
 
-        // if statements
+        // conditional statements
 
         int temperature = 25;
         boolean isRaining = false;
@@ -52,6 +59,9 @@ public class Operators {
         }
 
         System.out.println(dayString);
+
+
+
 
 
 

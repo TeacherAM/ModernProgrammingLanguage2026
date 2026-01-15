@@ -4,11 +4,13 @@ public class Variables {
     //psvm   --> public static void main
     //sout   --> System.out.println();
 
-
+   //access modifier - public , protected, private
     public static void main(String[] args){
 
-                 //primitive data types
+                 //primitive data types , reference data types
 
+
+        //Primitive data types
         // Byte (-128 to 127)
         byte age = 25;
         final byte MIN_AGE = 18;

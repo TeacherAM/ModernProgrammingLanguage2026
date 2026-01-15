@@ -8,7 +8,7 @@ public class functions {
 
     double sum(double a, double b) { return a + b; }
 
-
+    // T2
     int factorial(int n) {
         if (n == 1) return 1;
         return n * factorial(n-1);
