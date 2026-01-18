@@ -25,6 +25,26 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(UserValidator.isAdult(20));  // true
         System.out.println(UserValidator.isAdult(15));  // false
+        System.out.println(UserValidator.isValidEmail("user12@gmail.com"));  // false
+
+        System.out.println(Day.MONDAY.azName);
+        User u1 = new User(1,"Elvin", 22, "elvin@email.com");
+
+        User u2 = new User(1,"Elnur", 22, "elnur@email.com");
+
+        System.out.println(u1);
+        // instance -- obyektini yaratmaq
+        UserDataSource dataSource = new UserDataSource();
+        dataSource.getAllUsers();
+
+
+
+
+
+
+        dataSource.addUser(u1);
+        dataSource.addUser(u2);
+
 
         System.out.println(UserValidator.isValidEmail("john.doe@gmail.com")); // true
         System.out.println(UserValidator.isValidEmail("johndoegmail.com"));  // false

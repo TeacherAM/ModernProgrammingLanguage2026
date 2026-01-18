@@ -49,13 +49,13 @@ public class Loops {
         System.out.println("Rəqəmlərin kvadratları cəmi: " + result);
 
 
-        int hours = 0;
+        int hours = 2;
 
-        int minutes = 0;
+        int minutes = 10;
 
         int seconds = 0;
         // T3
-        for (int h = hours; h >= 0; h--) {   // 5
+        for (int h = hours; h >= 0; h--) {   // 1
             for (int m = minutes; m >= 0; m--) {  // 7,6,5,4,3.....0
                 for (int s = seconds; s >= 0; s--) {
                     System.out.println(h + " : " + m + " : " + s); //9,8,7,6,5,...1,0, 59,58,57....0,59....0
